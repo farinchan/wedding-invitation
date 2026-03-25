@@ -38,8 +38,8 @@ const CoupleProfile: React.FC = () => {
             {WEDDING_TEXT.quote.source}
           </p>
         </div>
-        <div className="grid items-start gap-20 md:grid-cols-2 md:gap-24">
-          <div className="group flex flex-col items-center space-y-10 text-center md:items-start md:text-left">
+        <div className="grid items-start gap-20 md:grid-cols-2 md:gap-24 md:justify-items-center">
+          <div className="group flex flex-col items-center space-y-10 text-center">
             <div className="relative">
               <div className="border-accent/20 dark:border-accent/10 absolute -inset-4 scale-105 rounded-full border transition-transform duration-1000 group-hover:scale-100 md:-inset-6"></div>
               <img
@@ -68,7 +68,7 @@ const CoupleProfile: React.FC = () => {
               </a>
             </div>
           </div>
-          <div className="group flex flex-col items-center space-y-10 text-center md:items-end md:text-right">
+          <div className="group flex flex-col items-center space-y-10 text-center">
             <div className="relative">
               <div className="border-[#C9A84C]/25 dark:border-[#C9A84C]/10 absolute -inset-4 scale-105 rounded-full border transition-transform duration-1000 group-hover:scale-100 md:-inset-6"></div>
               <img
@@ -81,7 +81,7 @@ const CoupleProfile: React.FC = () => {
               <h3 className="font-serif text-3xl font-medium tracking-tight text-slate-900 md:text-6xl dark:text-white">
                 {groom.fullName}
               </h3>
-              <p className="ml-auto max-w-xs text-[10px] font-medium tracking-widest text-balance text-slate-500 uppercase md:max-w-sm md:text-[12px] dark:text-slate-400">
+              <p className="max-w-xs text-[10px] font-medium tracking-widest text-balance text-slate-500 uppercase md:max-w-sm md:text-[12px] dark:text-slate-400">
                 {groom.parents}
               </p>
               <a
