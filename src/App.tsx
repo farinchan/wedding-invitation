@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Hero from "./components/Hero";
 import CoupleProfile from "./components/CoupleProfile";
 import EventDetails from "./components/EventDetails";
-import Gallery from "./components/Gallery";
+
 import LoveStory from "./components/LoveStory";
 import RSVPForm from "./components/RSVPForm";
 import Wishes from "./components/Wishes";
@@ -114,7 +114,7 @@ const App: React.FC = () => {
         <CoupleProfile />
         <LoveStory />
         <EventDetails />
-        <Gallery />
+
         <RSVPForm />
         <Wishes />
         <GiftInfo />
@@ -123,7 +123,7 @@ const App: React.FC = () => {
       <MusicPlayer />
       <Navbar theme={theme} toggleTheme={toggleTheme} />
 
-      <footer className="dark:bg-darkSurface relative flex h-screen w-full flex-col items-center justify-center overflow-hidden bg-white px-6 transition-colors duration-1000">
+      <footer className="dark:bg-darkSurface relative flex h-screen w-full flex-col items-center justify-center overflow-hidden bg-[#FDF8F0] px-6 transition-colors duration-1000">
         <div className="pointer-events-none absolute inset-0 z-0 flex items-center justify-center opacity-10 dark:opacity-[0.05]">
           <Heart className="animate-pulse-soft h-[85vw] w-[85vw] stroke-[0.3]" />
         </div>

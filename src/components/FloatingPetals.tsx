@@ -26,7 +26,7 @@ const FloatingPetals: React.FC = () => {
       {petals.map((p) => (
         <div
           key={p.id}
-          className="bg-accent/20 dark:bg-accent/10 absolute top-[-50px] rounded-full blur-[1px]"
+          className="bg-[#C9A84C]/25 dark:bg-[#C9A84C]/10 absolute top-[-50px] rounded-full blur-[1px]"
           style={{
             left: p.left,
             width: p.size,
@@ -37,7 +37,7 @@ const FloatingPetals: React.FC = () => {
             transform: `rotate(${p.rotation})`,
           }}
         >
-          <div className="bg-accent/10 h-full w-full rounded-[100%_0%_100%_0%_/_100%_0%_100%_0%] shadow-inner"></div>
+          <div className="bg-[#C9A84C]/15 h-full w-full rounded-[100%_0%_100%_0%_/_100%_0%_100%_0%] shadow-inner"></div>
         </div>
       ))}
       <style>{`

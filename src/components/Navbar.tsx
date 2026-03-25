@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import {
   Calendar,
-  Image as ImageIcon,
   MessageCircle,
   Send,
   User,
@@ -42,7 +41,6 @@ const Navbar: React.FC<NavbarProps> = ({ theme, toggleTheme }) => {
     { icon: Home, label: "Home", href: "#" },
     { icon: User, label: "Couple", href: "#couple" },
     { icon: Calendar, label: "Events", href: "#event" },
-    { icon: ImageIcon, label: "Gallery", href: "#gallery" },
     { icon: Send, label: "RSVP", href: "#rsvp" },
     { icon: MessageCircle, label: "Wishes", href: "#wishes" },
   ];

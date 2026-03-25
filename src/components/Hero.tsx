@@ -45,8 +45,8 @@ const Hero: React.FC = () => {
           className="animate-subtle-zoom h-full w-full object-cover"
           alt="Wedding Backdrop"
         />
-        <div className="absolute inset-0 bg-slate-950/40 backdrop-blur-[0.5px] dark:bg-slate-950/60"></div>
-        <div className="absolute inset-0 bg-gradient-to-b from-slate-950/40 via-transparent to-slate-950/80"></div>
+        <div className="absolute inset-0 bg-[#1A0A0A]/45 backdrop-blur-[0.5px] dark:bg-[#1A0A0A]/65"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-[#1A0A0A]/45 via-transparent to-[#1A0A0A]/80"></div>
       </div>
 
       <div className="z-10 container mx-auto flex flex-col items-center px-6 text-center">
@@ -85,7 +85,7 @@ const Hero: React.FC = () => {
           </div>
         </div>
 
-        <div className="animate-reveal frosted-glass mt-8 flex items-center justify-center gap-4 rounded-[1.5rem] border border-white/40 px-6 py-5 shadow-2xl [animation-delay:600ms] md:mt-16 md:gap-14 md:rounded-[2.2rem] md:px-10 md:py-8 dark:border-white/10">
+        <div className="animate-reveal frosted-glass mt-8 flex items-center justify-center gap-4 rounded-[1.5rem] border border-[#C9A84C]/30 px-6 py-5 shadow-2xl [animation-delay:600ms] md:mt-16 md:gap-14 md:rounded-[2.2rem] md:px-10 md:py-8 dark:border-[#C9A84C]/15">
           {Object.entries(timeLeft).map(([label, value]) => (
             <div
               key={label}

@@ -32,12 +32,12 @@ const Envelope: React.FC<EnvelopeProps> = ({ onOpen }) => {
           className="animate-subtle-zoom h-full w-full object-cover opacity-30"
           alt="Wedding Backdrop"
         />
-        <div className="from-darkBg/80 via-darkBg/20 to-darkBg/90 absolute inset-0 bg-gradient-to-b"></div>
+        <div className="from-[#1A0A0A]/85 via-[#7B1818]/20 to-[#1A0A0A]/90 absolute inset-0 bg-gradient-to-b"></div>
         <div className="absolute inset-0 backdrop-blur-[2px]"></div>
       </div>
       <div className="pointer-events-none absolute inset-0 overflow-hidden">
-        <div className="bg-accent/5 animate-pulse-soft absolute top-[10%] left-[5%] h-32 w-32 rounded-full blur-3xl"></div>
-        <div className="bg-accentDark/10 animate-pulse-soft absolute right-[5%] bottom-[10%] h-48 w-48 rounded-full blur-3xl [animation-delay:2s]"></div>
+        <div className="bg-[#C9A84C]/8 animate-pulse-soft absolute top-[10%] left-[5%] h-32 w-32 rounded-full blur-3xl"></div>
+        <div className="bg-[#7B1818]/15 animate-pulse-soft absolute right-[5%] bottom-[10%] h-48 w-48 rounded-full blur-3xl [animation-delay:2s]"></div>
       </div>
       <div
         className={`relative z-10 w-full max-w-2xl transform px-6 text-center transition-all duration-1000 ${
@@ -65,7 +65,7 @@ const Envelope: React.FC<EnvelopeProps> = ({ onOpen }) => {
             </div>
           </div>
           <div className="group relative">
-            <div className="from-accent/20 to-accentDark/20 absolute -inset-1 rounded-[3rem] bg-gradient-to-r opacity-30 blur transition duration-1000 group-hover:opacity-60"></div>
+            <div className="from-[#C9A84C]/25 to-[#7B1818]/20 absolute -inset-1 rounded-[3rem] bg-gradient-to-r opacity-30 blur transition duration-1000 group-hover:opacity-60"></div>
             <div className="frosted-glass relative space-y-8 overflow-hidden rounded-[2.8rem] border border-white/20 p-10 shadow-2xl md:p-16 dark:border-white/10">
               <div className="pointer-events-none absolute inset-0 opacity-[0.03] mix-blend-overlay">
                 <img
@@ -96,13 +96,13 @@ const Envelope: React.FC<EnvelopeProps> = ({ onOpen }) => {
           <div className="flex flex-col items-center gap-6">
             <button
               onClick={handleOpenClick}
-              className="group text-primary hover:bg-accent hover:text-darkBg relative inline-flex items-center gap-4 overflow-hidden rounded-full bg-white px-12 py-6 text-[11px] font-bold tracking-[0.2em] uppercase shadow-[0_15px_40px_-10px_rgba(255,255,255,0.3)] transition-all duration-700 active:scale-95 md:text-[13px]"
+              className="group text-[#7B1818] hover:bg-[#C9A84C] hover:text-[#1A0A0A] relative inline-flex items-center gap-4 overflow-hidden rounded-full bg-[#FDF8F0] px-12 py-6 text-[11px] font-bold tracking-[0.2em] uppercase shadow-[0_15px_40px_-10px_rgba(201,168,76,0.3)] transition-all duration-700 active:scale-95 md:text-[13px]"
             >
               <div className="relative z-10 flex items-center gap-3">
                 <MailOpen className="h-5 w-5 transition-transform duration-500 group-hover:scale-110" />
                 Buka Undangan
               </div>
-              <div className="bg-accent absolute inset-0 translate-y-full transition-transform duration-500 group-hover:translate-y-0"></div>
+              <div className="bg-[#C9A84C] absolute inset-0 translate-y-full transition-transform duration-500 group-hover:translate-y-0"></div>
             </button>
           </div>
         </div>

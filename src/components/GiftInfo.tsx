@@ -11,7 +11,7 @@ const GiftInfo: React.FC = () => {
   return (
     <section
       id="gift"
-      className="dark:bg-darkBg bg-white py-16 transition-colors duration-1000 md:py-40"
+      className="dark:bg-darkBg bg-[#FDF8F0] py-16 transition-colors duration-1000 md:py-40"
     >
       <div className="container mx-auto max-w-6xl px-4 md:px-6">
         <div className="mb-12 space-y-4 text-center md:mb-24 md:space-y-6">
