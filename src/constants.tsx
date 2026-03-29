@@ -58,7 +58,7 @@ export const WEDDING_CONFIG: WeddingConfig = {
       parents:
         import.meta.env.PUBLIC_BRIDE_PARENTS ??
         "Putri ke ... dari Bapak ... & Ibu ...",
-      instagram: import.meta.env.PUBLIC_BRIDE_INSTAGRAM ?? "feraoktapia___",
+      instagram: import.meta.env.PUBLIC_BRIDE_INSTAGRAM ?? "",
       image:
         import.meta.env.PUBLIC_BRIDE_IMAGE ??
         "https://placehold.co/600x800?text=Fey+Portrait",
