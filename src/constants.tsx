@@ -119,14 +119,14 @@ export const WEDDING_CONFIG: WeddingConfig = {
 
 export const LOVE_STORY = parseJson(import.meta.env.PUBLIC_LOVE_STORY, [
   {
-    date: "Musim Gugur, 2020",
-    title: "Pertemuan Pertama",
-    desc: "Berawal dari sebuah diskusi kecil...",
+    date: "2026",
+    title: "Awal Pertemuan",
+    desc: "Berawal dari sebuah pesan sederhana,yang perlahan menjadi cerita. Di akhir tahun, kami dipertemukan, dan di awal tahun, kami memutuskan untuk melangkah ke arah yang lebih serius. Dari sebuah perkenalan, menuju satu tujuan.",
   },
 ]);
 
 export const BANK_ACCOUNTS = parseJson(import.meta.env.PUBLIC_BANK_ACCOUNTS, [
-  { bank: "Bank BCA", number: "1234567890", name: "Fera Oktapia" },
+  { bank: "Bank Mandiri", number: "1050020314104", name: "Virsa Rahyuti" },
 ]);
 
 export const GALLERY_IMAGES = parseJson(import.meta.env.PUBLIC_GALLERY_IMAGES, [
